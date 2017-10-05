@@ -17,7 +17,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.sedundnes" name=" [COLOR yellow] Not Sure [/COLOR]" version="0.0.17" provider-name="Not Sure">
+<addon id="plugin.video.sedundnes" name=" [COLOR yellow] Not Sure [/COLOR]" version="0.0.18" provider-name="Not Sure">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.sedundnes.artwork" />
