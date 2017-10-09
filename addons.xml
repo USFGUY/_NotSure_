@@ -17,7 +17,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.ftgkaraoke" name="[COLOR orange] FTG[/COLOR] Karaoke" version="1.0.0" provider-name="Mikey1234-FTG">
+<addon id="plugin.video.ftgkaraoke" name="[COLOR orange] FTG[/COLOR] Karaoke" version="1.0.1" provider-name="Mikey1234-FTG">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="plugin.video.youtube" version="0.0.1"/>
