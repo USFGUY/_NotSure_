@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.sedundnes" name="seduNdneS Repo" version="0.0.3" provider-name="seduNdneS">
+<addon id="repository.sedundnes" name="seduNdneS Repo" version="0.0.4" provider-name="seduNdneS">
 	<extension point="xbmc.addon.repository" name="seduNdneS">
+	<dir>
+		<info compressed="false">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/</datadir>
+	</dir>
 		<info compressed="false">https://raw.githubusercontent.com/Firetvguru/_NotSure_/master/addons.xml</info>
 		<checksum>https://raw.githubusercontent.com/Firetvguru/_NotSure_/master/addons.xml.md5</checksum>
 		<datadir zip="true">https://raw.githubusercontent.com/Firetvguru/_NotSure_/master/</datadir>
