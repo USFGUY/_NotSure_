@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.sedundnes" name=" [COLOR yellow] Not Sure [/COLOR]" version="0.0.18" provider-name="Not Sure">
+<addon id="plugin.video.sedundnes" name=" [COLOR yellow] Not Sure [/COLOR]" version="0.0.19" provider-name="Not Sure">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.sedundnes.artwork" />
@@ -10,9 +10,12 @@
 		<import addon="script.snsports" />
 		<import addon="script.snxxx" />
 		<import addon="script.module.urlresolver" />
+		<import addon="script.mrknow.urlresolver" version="2017.03.30.1"/>
+		<import addon="script.module.requests" />
 		<import addon="script.module.liveresolver"/>
 		<import addon="script.video.F4mProxy"/>
 		<import addon="plugin.video.f4mTester" />
+		<import addon="script.module.nanscrapers" version="0.5.5" />
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
