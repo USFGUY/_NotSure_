@@ -17,6 +17,22 @@
     </extension>
 </addon>
 
+<addon id="plugin.video.filmon.simple" name="FilmOn Simple" version="0.1.9" provider-name="mhancoc7">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">FilmOn Simple</summary>
+    <description lang="en">Watch Live TV from FilmOn.</description>
+    <platform>all</platform>
+    <forum></forum>
+    <website></website>
+  </extension>
+</addon>
+
 <addon id="plugin.video.ftgkaraoke" name="[COLOR orange] FTG[/COLOR] Karaoke" version="1.0.2" provider-name="Mikey1234-FTG">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -30,6 +46,32 @@
     <description lang="en">This is a revised version of Mikey's Karaoke ......Search and Play Karaoke Songs from Youtube.....All the original creditgoes to Mikey1234 as we would not have this addon if it wasnt for him!! I only take credit for the modifications I've done to get it working again also features afont color changer aswell. All the content streamed within comes from YouTube. This is a third party addon that has no affliation with Kodi nor YouTube. </description>
     <platform>all</platform>
   </extension>
+</addon>
+
+<addon id="plugin.video.ftgrel" name=" [COLOR orange]FTG[/COLOR] Religion" version="0.0.1" provider-name="[COLOR red]F[COLOR white]T[COLOR blue]G[/COLOR]">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+		<import addon="plugin.video.youtube" version="5.2.1" optional="true" />
+		<import addon="script.module.pyxbmct" version="1.1.4" />
+		<import addon="script.module.urlresolver" version="3.0.0"/>
+		<import addon="script.module.liveresolver" version="0.1.24"/>
+		<import addon="script.video.F4mProxy" version="2.2.3"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Religion</summary>
+		<description lang="en">Basic Religious Addon - First Release</description>
+		<platform>all</platform>
+		<forum></forum>
+		<website></website>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+		</assets>
+		<news>==</news>
+	</extension>
 </addon>
 
 <addon id="plugin.video.sedundnes" name=" [COLOR yellow] Not Sure [/COLOR]" version="0.0.20" provider-name="Not Sure">
